@@ -27,6 +27,9 @@
         background-image: url("image4.jpg");
         backdrop-filter: blur(5px);
         height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         /* background-color: #FFDEE9;
 background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
 background-repeat: no-repeat; */
@@ -36,19 +39,32 @@ background-repeat: no-repeat; */
         /* margin-top: 120px; */
     }
     h1 {
-  font-size: 72px;
+  font-size: 150px;
   background: -webkit-linear-gradient(#b54141, #a40505);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
     
+@media only screen and (max-width: 375px){
+    h1{
+        font-size: 80px !important;
+  
+  
+    }
+    
+}
    </style>
 </head> 
 <body class="a">
-    <div class=" p-5">
-        <div class="row justify-content-around p-5">
-            <div class="col-md-12  b   p-5 text-center">
-                <h1 style="font-size: 150px; color: white;">ECO<br><span>BREATHE...</span> </h1>
+    <div class=" ">
+        <div class="row justify-content-around">
+            <div class="col-12     text-center d-md-block d-none" style="margin-top: 70px;">
+                <h1 style="color: white;">ECO<br><span>BREATHE...</span> </h1>
+                <button type="button" class="btn btn-warning"> <a href="page2.html" class="text-white text-decoration-none">Click here for More Details </a></button>
+                   
+            </div>
+            <div class="col-12     text-center d-md-none d-block " style="margin-top: 200px;">
+                <h1 style="color: white; font-size: 60px;">ECO<br><span>BREATHE...</span> </h1>
                 <button type="button" class="btn btn-outline-warning"> <a href="page2.html" class="text-white">Click here for More Details </a></button>
                    
             </div>
