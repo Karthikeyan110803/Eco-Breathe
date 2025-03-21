@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ECO BREATHE</title>
 </head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <style>
     .row{
-        display: flex;
-            justify-content: space-around;
+        /* display: flex;
+            justify-content: space-around; */
          
             padding: 10px;
         }
@@ -14,7 +18,9 @@
             }
             .a{
                 margin-top: 70px;
-                background-color: bisque;
+                background-color: #FFDEE9;
+                background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+background-repeat: no-repeat;
             }
 
 .d{
@@ -25,7 +31,7 @@
 
 <body class="a">
     <div class="row">
-        <div class="col d">
+        <div class="col-md-5 mt-5">
            
                <p>   <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-tree" viewBox="0 0 16 16">
@@ -34,15 +40,14 @@
               </span></p>
             
                   
-                   
-                     <span>
+                <p>
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-tree" viewBox="0 0 16 16">
                                 <path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777zM6.437 4.758A.5.5 0 0 0 6 4.5h-.066L8 1.401 10.066 4.5H10a.5.5 0 0 0-.424.765L11.598 8.5H11.5a.5.5 0 0 0-.447.724L12.69 12.5H3.309l1.638-3.276A.5.5 0 0 0 4.5 8.5h-.098l2.022-3.235a.5.5 0 0 0 .013-.507"/>
                               </svg>      2.𝓹𝓮𝓻𝓼𝓸𝓷𝓪𝓵𝓲𝔃𝓮𝓭 𝓹𝓾𝓻𝓲𝓯𝓲𝓬𝓪𝓽𝓲𝓸𝓷 𝓢𝓮𝓽𝓽𝓲𝓷𝓰𝓼
                           </span>
-                     </span>
-                        
+                     
+                        </p>
                         
                    
           <p>
@@ -56,10 +61,13 @@
                    
                        
           
-                <center><a  href="page3.html">NEXT</a></center>
+       
         </div>
-        <div class="col">
-            <img src="image6.jpg" width="450px" height="450px">
+        <div class="col-md-5">
+            <img src="image6.jpg" class="img-fluid" >
+            <div class="text-center mt-2">
+                <button type="button" class="btn btn-outline-warning"> <a  href="page3.html">NEXT</a></button>
+            </div>
         </div> 
     </div>
 

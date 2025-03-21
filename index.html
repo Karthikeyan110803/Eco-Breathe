@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>ECO BREATHE</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
    <style>
   
     a:visited{
@@ -13,32 +17,46 @@
        color: red;
     }
     .row{
-        display: flex;
-        justify-content: space-around;
+
    
         padding: 10px;
     }
     .a{
-        margin-top: 70px;
-        background-color: bisque;
+        /* margin-top: 70px; */
+        /* height: 100%; */
+        background-image: url("image4.jpg");
+        backdrop-filter: blur(5px);
+        height: 100vh;
+        /* background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+background-repeat: no-repeat; */
+
     }
     .b{
-        margin-top: 120px;
+        /* margin-top: 120px; */
     }
+    h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#b54141, #a40505);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
     
    </style>
 </head> 
 <body class="a">
-        <div class="row">
-            <div class="col b">
-                <h1>ECO <br><span>BREATHE..</span> </h1>
-                                
-                    <a href="page2.html">Click here for More Details </a>
+    <div class=" p-5">
+        <div class="row justify-content-around p-5">
+            <div class="col-md-12  b   p-5 text-center">
+                <h1 style="font-size: 150px; color: white;">ECO<br><span>BREATHE...</span> </h1>
+                <button type="button" class="btn btn-outline-warning"> <a href="page2.html" class="text-white">Click here for More Details </a></button>
+                   
             </div>
-            <div class="col v ">
-                <img src="image4.jpg" width="450px" height="450px">
-            </div>
+            <!-- <div class="col-md-6 order-md-2 oeder-1  v  ">
+                <img src="image4.jpg" class="img-fluid">
+            </div> -->
         </div>
-        
+    </div>
+    
 </body>
 </html>
